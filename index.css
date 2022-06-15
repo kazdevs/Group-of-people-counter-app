@@ -5,6 +5,10 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -30,11 +34,11 @@ button {
 }
 
 #increment-btn {
-  background: darkred;
+  background: orange;
 }
 
 #save-btn {
-  background: darkgreen;
+  background: blue;
 }
 #refresh-btn {
   margin-top: 50px;
